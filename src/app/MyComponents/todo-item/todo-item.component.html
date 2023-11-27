@@ -1,0 +1,16 @@
+<div class="card" [ngClass]="{'dark-card':!todo.active}">
+    <h5 class="card-header" [ngClass]="{'completed':!todo.active}">{{todo.sno}}. {{todo.title}}</h5>
+    <div class="card-body">
+        <p class="card-text" [ngClass]="{'completed':!todo.active}">{{todo.desc}}</p>
+    </div>
+    <div class="row mb-2">
+        <div class="col-6">
+            <input type="checkbox" class="form-check-input activeCheckbox" id="active{{todo.sno}}" (click)="activeCheckBoxHandler(todo)" [checked]="!todo.active">
+            <label *ngIf="todo.active; else elseBlock" class="form-check-label" for="active{{todo.sno}}">Mark as done</label>
+            <ng-template #elseBlock>Mark as undone</ng-template>
+        </div>
+        <div class="col-6">
+            <button class="btn btn-sm btn-danger" (click)="todoDeleteHandler(todo)">Remove</button>
+        </div>
+    </div>
+</div>

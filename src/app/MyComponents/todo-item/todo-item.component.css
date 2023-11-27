@@ -1,0 +1,11 @@
+.dark-card {
+    background-color: blanchedalmond;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.activeCheckbox {
+    margin-right: 10px;
+}

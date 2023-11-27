@@ -1,27 +1,41 @@
-# TodoListApp
+<h1>About Todo App</h1>
+<p>
+  Welcome to the Todo App, a simple and efficient way to manage your tasks and
+  stay organized!
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+<h2>Features</h2>
+<ul>
+  <li>
+    <strong>Add Todos:</strong> Use the input field to add new tasks to your
+    list.
+  </li>
+  <li>
+    <strong>Mark as Completed:</strong> Check off completed tasks by clicking
+    the checkbox next to each todo.
+  </li>
+  <li>
+    <strong>Remove Todos:</strong> Easily remove tasks that are no longer needed
+    with the "Remove" button.
+  </li>
+</ul>
 
-## Development server
+<h2>How to Use</h2>
+<p>Getting started with the Todo App is simple:</p>
+<ol>
+  <li>Type your new task in the input field.</li>
+  <li>Click the "Add Todo" button to add it to your list.</li>
+  <li>Mark tasks as completed by checking the checkbox.</li>
+  <li>Remove tasks using the "Remove" button.</li>
+</ol>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p>Stay productive and organized with the Todo App!</p>
 
-## Code scaffolding
+<h2>Technical Details</h2>
+<p>
+  The Todo App is built using Angular, a powerful and popular front-end
+  framework. It leverages Angular's two-way data binding to provide a seamless
+  and responsive user experience.
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<p>Happy task managing!</p>
